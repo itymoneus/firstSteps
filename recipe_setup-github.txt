@@ -31,6 +31,7 @@ git add -A
 git commit -m "firstSteps: first commit"
 git remote add origin git@github-itymoneus:itymoneus/firstSteps.git
 git push -u origin master
+or git push -f origin master # to overwrite remote branch with local code
 
 ===============================================
 Material:
