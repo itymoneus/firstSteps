@@ -6,13 +6,12 @@ ssh-keygen -f "$HOME/.ssh/github_id_itymoneus.priv" -t ed25519 -C "<mailadress>"
 (use strong password to protect your private key)
 
 2. Add public key to SSH user settings in GitHub
- 
 GitHub / personal settings / ssh and gpg keys: 
 	title: itymoneus
 	Key type: authentication Key
 	Key:	<content of ~/.ssh/github_id_itymoneus.priv.pub>
 
-2. Add to ~/.ssh/config
+3. Add to ~/.ssh/config
 Host github-itymoneus
     HostName github.com
     IdentityFile ~/.ssh/github_id_itymoneus.priv
